@@ -27,7 +27,7 @@ except ImportError:
 GREETING = "おはようございます"
 HEADER = "【本日の予定】"
 NO_EVENTS_LINE = "・本日の予定はありません"
-SHOW_TIME = True  # True にすると各予定の先頭に開始時刻を付ける
+SHOW_TIME = False  # True にすると各予定の先頭に開始時刻を付ける
 
 
 def request_access(store):
